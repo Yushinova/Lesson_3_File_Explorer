@@ -231,7 +231,7 @@
             this.синийToolStripMenuItem,
             this.белыйToolStripMenuItem});
             this.цветШрифтаToolStripMenuItem.Name = "цветШрифтаToolStripMenuItem";
-            this.цветШрифтаToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.цветШрифтаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.цветШрифтаToolStripMenuItem.Text = "Цвет шрифта";
             // 
             // поУмочаниюToolStripMenuItem
@@ -278,7 +278,7 @@
             this.синийToolStripMenuItem1,
             this.черныйToolStripMenuItem});
             this.цветФонаToolStripMenuItem.Name = "цветФонаToolStripMenuItem";
-            this.цветФонаToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.цветФонаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.цветФонаToolStripMenuItem.Text = "Цвет фона";
             // 
             // поУмолчаниюToolStripMenuItem
@@ -323,7 +323,7 @@
             this.gOSTBToolStripMenuItem,
             this.calibriToolStripMenuItem});
             this.шрифтToolStripMenuItem.Name = "шрифтToolStripMenuItem";
-            this.шрифтToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.шрифтToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.шрифтToolStripMenuItem.Text = "Шрифт";
             // 
             // timesNewRomanToolStripMenuItem
@@ -375,7 +375,6 @@
             this.textBox_Main.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox_Main.Size = new System.Drawing.Size(890, 577);
             this.textBox_Main.TabIndex = 0;
-
             // 
             // contextMenuStrip_Main
             // 
@@ -417,6 +416,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.btn_exit, 0, 8);
@@ -429,6 +429,7 @@
             this.tableLayoutPanel1.Controls.Add(this.btn_save, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.btn_Open, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 12;
@@ -537,13 +538,15 @@
             // 
             // btn_Open
             // 
+            this.btn_Open.BackColor = System.Drawing.SystemColors.Control;
             this.btn_Open.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Open.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btn_Open.Location = new System.Drawing.Point(3, 3);
             this.btn_Open.Name = "btn_Open";
             this.btn_Open.Size = new System.Drawing.Size(164, 42);
             this.btn_Open.TabIndex = 0;
             this.btn_Open.Text = "Открыть";
-            this.btn_Open.UseVisualStyleBackColor = true;
+            this.btn_Open.UseVisualStyleBackColor = false;
             this.btn_Open.Click += new System.EventHandler(this.btn_Open_Click);
             // 
             // openFileDialog
@@ -559,7 +562,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "100500й_Блокнот";
+            this.Text = "TXT";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.splitContainer_main.Panel1.ResumeLayout(false);
